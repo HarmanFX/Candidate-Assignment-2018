@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta http-equiv="Cache-Control" content="no-store" />
+
+	<!-- Bootstrap
+	<link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+	<meta charset=utf-8>
+
+	<!-- custom stylesheet for Neurosense -->
+	<link href="assignment.css" rel="stylesheet">
+	<title>Neurosense Analytics</title>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/jquery/dist/jquery.js"></script>
+
+	<!-- Google fonts <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Oswald|Raleway" rel="stylesheet">
+  -->
+	<script src="ui.js"></script>
+</head>
+<body>
+	<h1> FX Team Interview Assignment </h1>
+  <div id="container">
+		<div id="assignment_container" class="sensor_container">
+			<img class="sensor_img" src="sensor.png"></img>
+		</div>
+		<div id="lift_platform" class="lift_platform">
+			<video id="platformvideo" width="480"  preload="auto" controls="" style="pointer-events:none">
+	  		<source src="platform.mp4" type="video/mp4">
+				<source src="platform_rev.mp4" type="video/mp4">
+			</video>
+		</div>
+	</div>
+	<div class="larger">
+		Distance of hand from sensor: <span id="distance_gage" class="gage">xxx cm</span>
+	</div>
+	<div class="larger">
+		Platform state: <span id="platform_state_gage" class="gage">retracted</span>
+	</div>
+</body>

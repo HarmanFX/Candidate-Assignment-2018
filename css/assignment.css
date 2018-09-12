@@ -1,0 +1,54 @@
+.sensor_container {
+  flex: 1;
+  display: inline-block;
+  width: 800px;
+  height: 600px;
+  max-width: 800px;
+  max-height: 600px;
+  border:  1px dotted black;
+  cursor: url(hand.png), auto;
+}
+
+.sensor_img {
+  max-width: 150px;
+  display: block;
+  position: relative;
+  margin-top: 0;
+  padding: 0;
+  top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lift_platform {
+  display: inline-block;
+  float: right;
+}
+
+#platformvideo{
+  margin-right: -120px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+div.container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  border: 1px dotted red;
+}
+
+.larger
+{
+  font-size: large;
+  padding: 10px;
+}
+
+.gage
+{
+  border: 1px solid black;
+  font-weight: bold;
+  padding: 5px;
+}
