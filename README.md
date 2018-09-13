@@ -14,16 +14,21 @@ We've included a web interface that will simulate the interaction between the ha
 
 ### Installing Node and Dependencies
 #### Mac/Linux
-- Use brew to install node (more verbose guide) [http://blog.teamtreehouse.com/install-node-js-npm-mac]
+- Use brew to install node [more verbose guide](http://blog.teamtreehouse.com/install-node-js-npm-mac)
   - If you don't have brew, install with:
     - $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   - $ brew install node
 - We're using only one dependency in this project, Socket.io
   - In the root directory of this project:
     - $ npm install
+
+#### Windows
+- [Guide](http://blog.teamtreehouse.com/install-node-js-npm-windows)
+
+### Running
 - If everything has install correctly the application can be launched with:
   - $ node app.js
-  - To view the GUI in your browsers, navigate to: localhost:4200
+- To view the GUI in your browsers, navigate to: localhost:4200
 
 ## What we're looking for
 This exercise is indicative of a typical challenge the FX Team would have when working on a system during one of our sprints. We're looking for a solution that ensures all edge cases are accounted for, and is able to run without errors. Good luck, and have fun! :)
