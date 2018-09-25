@@ -21,7 +21,6 @@ We've included a web interface that will simulate the interaction between the ha
 - We're using only one dependency in this project, Socket.io
   - In the root directory of this project:
     - $ npm install
-
 #### Windows
 - [Guide](http://blog.teamtreehouse.com/install-node-js-npm-windows)
 
@@ -29,6 +28,7 @@ We've included a web interface that will simulate the interaction between the ha
 - If everything has install correctly the application can be launched with:
   - $ node app.js
 - To view the GUI in your browsers, navigate to: localhost:4200
+  - Chrome is a little "quirky" with autoplaying videos, you'll need to click on the page first to allow the video to function correctly
 
 ## What we're looking for
 This exercise is indicative of a typical challenge the FX Team would have when working on a system during one of our sprints. We're looking for a solution that ensures all edge cases are accounted for, and is able to run without errors. Good luck, and have fun! :)
